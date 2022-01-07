@@ -19311,18 +19311,12 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 /*!*******************************!*\
   !*** ./resources/css/app.css ***!
   \*******************************/
-<<<<<<< HEAD
-/***/ (() => {
-
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\nTypeError: Cannot read property 'config' of undefined\n    at getTailwindConfig (C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\tailwindcss\\lib\\lib\\setupTrackingContext.js:81:62)\n    at C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\tailwindcss\\lib\\lib\\setupTrackingContext.js:124:92\n    at C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\tailwindcss\\lib\\processTailwindFeatures.js:38:11\n    at plugins (C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\tailwindcss\\lib\\index.js:20:104)\n    at LazyResult.runOnRoot (C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\postcss\\lib\\lazy-result.js:339:16)\n    at LazyResult.runAsync (C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\postcss\\lib\\lazy-result.js:393:26)\n    at LazyResult.async (C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\postcss\\lib\\lazy-result.js:221:30)\n    at LazyResult.then (C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\postcss\\lib\\lazy-result.js:206:17)\n    at processResult (C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\webpack\\lib\\NormalModule.js:751:19)\n    at C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\webpack\\lib\\NormalModule.js:853:5\n    at C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\loader-runner\\lib\\LoaderRunner.js:399:11\n    at C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\loader-runner\\lib\\LoaderRunner.js:251:18\n    at context.callback (C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\loader-runner\\lib\\LoaderRunner.js:124:13)\n    at Object.loader (C:\\xampp\\htdocs\\laravelMovieApp\\node_modules\\postcss-loader\\dist\\index.js:142:7)");
-=======
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
->>>>>>> installTailandCSS
 
 /***/ }),
 
@@ -19560,9 +19554,6 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
-<<<<<<< HEAD
-/************************************************************************/
-=======
 /******/ 	// expose the modules object (__webpack_modules__)
 /******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
@@ -19599,7 +19590,6 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		};
 /******/ 	})();
 /******/ 	
->>>>>>> installTailandCSS
 /******/ 	/* webpack/runtime/global */
 /******/ 	(() => {
 /******/ 		__webpack_require__.g = (function() {
@@ -19612,8 +19602,6 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		})();
 /******/ 	})();
 /******/ 	
-<<<<<<< HEAD
-=======
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -19630,7 +19618,6 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		};
 /******/ 	})();
 /******/ 	
->>>>>>> installTailandCSS
 /******/ 	/* webpack/runtime/node module decorator */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nmd = (module) => {
@@ -19640,8 +19627,6 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		};
 /******/ 	})();
 /******/ 	
-<<<<<<< HEAD
-=======
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
 /******/ 		// no baseURI
@@ -19696,21 +19681,14 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
 /******/ 	
->>>>>>> installTailandCSS
 /************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-<<<<<<< HEAD
-/******/ 	__webpack_require__("./resources/js/app.js");
-/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__("./resources/css/app.css");
-=======
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
 /******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app.js")))
 /******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/css/app.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
->>>>>>> installTailandCSS
 /******/ 	
 /******/ })()
 ;

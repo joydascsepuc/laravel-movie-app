@@ -58,7 +58,11 @@
                     @if ($loop->index < 10)
                         <div class="mt-8">
                             <a href="#">
-                                <img src="https://image.tmdb.org/t/p/w500/{{ $cast['profile_path'] }}" alt="image" class="hover:opacity-75 transition ease-in-out duration-150">
+                                @if ($cast['profile_path'])
+                                    <img src="https://image.tmdb.org/t/p/w500/{{ $cast['profile_path'] }}" alt="image" class="hover:opacity-75 transition ease-in-out duration-150">
+                                @else
+                                    <img src="https://via.placeholder.com/500x750" alt="poster" class="hover:opacity-75 transition ease-in-out duration-150">
+                                @endif
                             </a>
                             <div class="mt-2">
                                 <a href="#" class="text-lg mt-2 hover:text-gray:300">{{ $cast['original_name'] }}</a>

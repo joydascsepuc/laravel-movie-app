@@ -9,7 +9,7 @@
     <livewire:styles>
     <script defer src="https://unpkg.com/alpinejs@3.7.1/dist/cdn.min.js"></script>
 </head>
-<body class="font-sans bg-gray-900 text-white">
+<body class="font-sans bg-orange-900 text-white">
     <nav class="border-b border-gray-800">
         <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between px-4 py-6">
             <ul class="flex flex-col md:flex-row items-center">
@@ -32,16 +32,18 @@
                 <livewire:search-dropdown>
                 <div class="md:ml-4 mt-3 md:mt-0">
                     <a href="#">
-                        <img src="/img/avatar.jpg" alt="avatar" class="rounded-full w-8 h-8">
+                        {{-- <img src="/img/avatar.jpg" alt="avatar" class="rounded-full w-8 h-8"> --}}
                     </a>
                 </div>
             </div>
         </div>
     </nav>
     @yield('content')
-    <footer class="border border-t border-gray-800">
+    <footer class="border border-t border-orange-800">
         <div class="container mx-auto text-sm px-4 py-6">
             Powered by <a href="https://www.themoviedb.org/documentation/api" class="underline hover:text-gray-300">TMDb API</a>
+            <br>Developed by <a href="#" class="underline hover:text-gray-300">Joy Das</a>
+            <br>Inspired From <a href="#" class="underline hover:text-gray-300">Andre Madarang</a>
         </div>
     </footer>
     <livewire:scripts>

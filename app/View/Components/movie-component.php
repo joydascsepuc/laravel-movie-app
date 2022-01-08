@@ -8,17 +8,15 @@ class movie-component extends Component
 {
 
     public $movie;
-    public $genres;
 
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($movie, $genres)
+    public function __construct($movie)
     {
         $this->movie = $movie;
-        $this->genre = $genres;
     }
 
     /**

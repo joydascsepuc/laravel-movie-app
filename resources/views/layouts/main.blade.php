@@ -27,6 +27,9 @@
                 <li class="md:ml-6 mt-3 md:mt-0">
                     <a href="{{ route('actors.index') }}" class="hover:text-gray-300">Actors</a>
                 </li>
+                <li class="md:ml-6 mt-3 md:mt-0">
+                    <a href="#" class="hover:text-gray-300">Genres</a>
+                </li>
             </ul>
             <div class="flex flex-col md:flex-row items-center">
                 <livewire:search-dropdown>
@@ -43,7 +46,7 @@
         <div class="container mx-auto text-sm px-4 py-6">
             Powered by <a href="https://www.themoviedb.org/documentation/api" class="underline hover:text-gray-300">TMDb API</a>
             <br>Developed by <a href="#" class="underline hover:text-gray-300">Joy Das</a>
-            <br>Inspired From <a href="#" class="underline hover:text-gray-300">Andre Madarang</a>
+            <br>Inspired From <a href="https://www.youtube.com/channel/UCtb40EQj2inp8zuaQlLx3iQ" class="underline hover:text-gray-300">Andre Madarang</a>
         </div>
     </footer>
     <livewire:scripts>
